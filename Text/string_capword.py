@@ -1,5 +1,4 @@
-#string libary
-#capword
+#Capwords()
 #capword is first character of every word change the upper  
 import string
 s = 'The quick brown fox jumped over the lazy dog.'

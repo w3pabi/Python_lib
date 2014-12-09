@@ -1,3 +1,5 @@
+#Template(): $name ${name} insert to values the form
+
 import string
 
 values = { 'var':'foo'}
@@ -14,6 +16,6 @@ s = """
 Variable            : %(var)s
 Escape              : %%
 Variable in text    : %(var)siable
-""")
+"""
 
 print 'INTERPOLATION:', s % values
